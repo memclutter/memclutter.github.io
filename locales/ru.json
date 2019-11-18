@@ -1,0 +1,39 @@
+{
+  "menu": {
+    "services": "Услуги",
+    "portfolio": "Портфолио",
+    "contacts": "Контакты"
+  },
+  "index": {
+    "header": "Анатолий Гаркуша",
+    "caption": "Backend разработчик, DevOps инженер",
+    "description": "",
+    "servicesHeader": "Предоставляю услуги",
+    "services": [
+      {
+        "title": "Проектирование архитектуры",
+        "description": "Спроектирую архитектуру сложного проекта по техническому заданию"
+      },
+      {
+        "title": "API",
+        "description": "Разработаю api для web приложения или мобильного приложения"
+      },
+      {
+        "title": "Автоматизация",
+        "description": "Напишу скрипт, парсер или бот для телеграм, вкотнакте"
+      },
+      {
+        "title": "Docker",
+        "description": "Внедрение в проект поддержки docker-контейнеров"
+      },
+      {
+        "title": "CI/CD pipeline",
+        "description": "Запущу процесс ci/cd pipeline на проекте"
+      },
+      {
+        "title": "DevOps",
+        "description": "Внедрю практики DevOps"
+      }
+    ]
+  }
+}
