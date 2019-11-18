@@ -20,7 +20,7 @@ script:
 deploy:
   provider: pages
   skip-cleanup: true
-  githbu-token: 'f4fcaf96998922f4f12d0ac4529bc1c08a472dae'
+  githbu-token: $GITHUB_ACCESS_TOKEN
   target-branch: master
   local-dir: dist
   verbose: true
