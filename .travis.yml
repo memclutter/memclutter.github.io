@@ -19,6 +19,7 @@ script:
 
 deploy:
   provider: pages
+  edge: true
   skip-cleanup: true
   githbu-token: $GITHUB_ACCESS_TOKEN
   target-branch: master
