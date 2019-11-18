@@ -20,7 +20,7 @@ script:
 deploy:
   provider: pages
   skip-cleanup: true
-  githbu-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure https://docs.travis-ci.com/user/deployment/pages/#Setting-the-GitHub-token
+  githbu-token: 'f4fcaf96998922f4f12d0ac4529bc1c08a472dae'
   target-branch: master
   local-dir: dist
   verbose: true
