@@ -15,9 +15,9 @@
 <script>
 export default {
   props: {
-    icon: String,
-    title: String,
-    description: String
+    icon: { type: String, default: '' },
+    title: { type: String, default: '' },
+    description: { type: String, default: '' }
   }
 }
 </script>

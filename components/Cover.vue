@@ -1,5 +1,5 @@
 <template>
-  <v-row align="center" class="cover" id="cover">
+  <v-row id="cover" align="center" class="cover">
     <v-col cols="12" md="6">
       <v-img src="/imgs/cover.jpg" />
     </v-col>

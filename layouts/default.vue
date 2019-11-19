@@ -3,6 +3,7 @@
     <app-bar />
     <v-content>
       <nuxt />
+      <contacts />
     </v-content>
     <v-footer
       fixed
@@ -15,10 +16,12 @@
 
 <script>
 import AppBar from '~/components/AppBar'
+import Contacts from '~/components/Contacts'
 
 export default {
   components: {
-    AppBar
+    AppBar,
+    Contacts
   }
 }
 </script>
