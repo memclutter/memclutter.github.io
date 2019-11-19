@@ -34,6 +34,11 @@
         "title": "DevOps",
         "description": "Внедрю практики DevOps"
       }
-    ]
+    ],
+    "contacts": {
+      "header": "Contact with me",
+      "phone": "+7 (938) 434-55-68",
+      "email": "memclutter@gmail.com"
+    }
   }
 }
