@@ -2,9 +2,7 @@
   <v-app>
     <app-bar />
     <v-content>
-      <v-container style="max-width: 1220px">
-        <nuxt />
-      </v-container>
+      <nuxt />
     </v-content>
     <v-footer
       fixed

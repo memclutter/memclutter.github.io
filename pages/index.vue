@@ -1,6 +1,8 @@
 <template>
   <div>
-    <cover />
+    <v-container style="max-width: 1220px">
+      <cover />
+    </v-container>
     <services />
     <portfolio />
     <contacts />
