@@ -19,7 +19,7 @@ export default {
   },
 
   validate ({ params }) {
-    return ['flogmall', 'dapcar', 'mobile-pirate', 'ajax-partners', 'rumetr', 'globe-sailor'].includes(params.slug)
+    return ['flogmall', 'mobile-pirate', 'ajax-partners', 'rumetr', 'globe-sailor'].includes(params.slug)
   },
 
   computed: {
@@ -42,15 +42,6 @@ export default {
             `/imgs/portfolio/${this.slug}/screen-1.png`,
             `/imgs/portfolio/${this.slug}/screen-2.png`,
             `/imgs/portfolio/${this.slug}/screen-3.png`
-          ]
-        case 'dapcar':
-          return [
-            `/imgs/portfolio/${this.slug}/screen-1.png`,
-            `/imgs/portfolio/${this.slug}/screen-2.png`,
-            `/imgs/portfolio/${this.slug}/screen-3.png`,
-            `/imgs/portfolio/${this.slug}/screen-4.png`,
-            `/imgs/portfolio/${this.slug}/screen-5.png`,
-            `/imgs/portfolio/${this.slug}/screen-6.png`
           ]
         default:
           return []
