@@ -13,6 +13,19 @@ paginate = 6
 # just name it what's under your theme directory.
 theme = "minima"
 
+# i18n
+defaultContentLanguage = "en"
+[languages]
+  [languages.en]
+  title = 'memclutter site'
+  weight = 1
+  [languages.ru]
+  title = 'memcluter'
+  weight = 2
+    [languages.ru.author]
+    slogon = ""
+    description = "Backend/DevOps/SRE с опытом более 8 лет"
+
 # Author has some of your information to be shown on the home page.
 [author]
 name = "memclutter"
