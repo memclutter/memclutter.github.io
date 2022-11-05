@@ -121,6 +121,10 @@ placeholder = ""
 # in that file, each line must be formatted as `name = '<svg>'`
 # where `<svg>` is the svg code.
 [[params.social]]
+name = "telegram"
+url = "https://t.me/memclutter"
+svg = ""
+[[params.social]]
 name = "github"  
 url = "https://github.com/memclutter"
 svg = ""
