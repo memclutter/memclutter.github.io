@@ -37,8 +37,8 @@ defaultContentLanguage = "en"
         url = "/"
         weight = 1
       [[languages.ru.menu.main]]
-        name = "Категории"
-        url = "/categories"
+        name = "Тэги"
+        url = "/tags"
         weight = 2
       [[languages.ru.menu.main]]
         name = "Серия статей"
@@ -159,8 +159,8 @@ name = "Home"
 url = "/"
 weight = 1
 [[menu.main]]
-name = "Categories"
-url = "/categories"
+name = "Tags"
+url = "/tags"
 weight = 2
 [[menu.main]]
 name = "Series"
@@ -179,7 +179,6 @@ weight = 4
 #     tags = ["hugo", "golang"]
 # A little suggestion: one post belongs to one series or one category or multiple tags.
 [taxonomies]
-category = "categories"
 tag = "tags"
 series = "series"
 

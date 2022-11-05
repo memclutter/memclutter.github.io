@@ -2,7 +2,8 @@
 title: "Wireguard"
 date: 2022-11-05T15:30:19+03:00
 draft: true
-categories: ['networking', 'devops']
+tags: ['networking', 'devops']
+series: ['Wireguard']
 ---
 
 Недавно по работе пришлось более углубленно изучить wireguard. Я провел анализ оффициальной документаации и нескольких статей на различных ресурсах и попытаюсь собрать сводку по wireguard, что то вроде конспекта.
