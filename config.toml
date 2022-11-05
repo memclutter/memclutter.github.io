@@ -18,10 +18,12 @@ defaultContentLanguage = "en"
 [languages]  
   [languages.en]
     languageName = "🇬🇧"
+    contentDir = "content/en"
     title = 'memclutter site'
     weight = 1
   [languages.ru]
     languageName = "🇷🇺"
+    contentDir = "content/ru"
     title = 'memcluter'
     weight = 2
     [languages.ru.author]
