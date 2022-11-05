@@ -15,34 +15,39 @@ theme = "minima"
 
 # i18n
 defaultContentLanguage = "en"
-[languages]
-  
+[languages]  
   [languages.en]
-  title = 'memclutter site'
-  weight = 1
-  
-  [languages.ru]
-  title = 'memcluter'
-  weight = 2
-    [languages.ru.author]
-    slogon = ""
-    description = "Backend/DevOps/SRE с опытом более 8 лет"
-    [languages.ru.params]
-    iam = ""
-    recent = "Свежее"
-    older = "Старое"
-    [[languages.ru.menu.main]]
-    name = "Главная"
-    url = "/"
+    languageName = "🇬🇧"
+    title = 'memclutter site'
     weight = 1
-    [[languages.ru.menu.main]]
-    name = "Категории"
-    url = "/categories"
+  [languages.ru]
+    languageName = "🇷🇺"
+    title = 'memcluter'
     weight = 2
-    [[languages.ru.menu.main]]
-    name = "Обо мне"
-    url = "/about"
-    weight = 4
+    [languages.ru.author]
+      slogon = ""
+      description = "Backend/DevOps/SRE с опытом более 8 лет"
+    [languages.ru.params]
+      iam = ""
+      recent = "Свежее"
+      older = "Старое"
+    [languages.ru.menu]
+      [[languages.ru.menu.main]]
+        name = "Главная"
+        url = "/"
+        weight = 1
+      [[languages.ru.menu.main]]
+        name = "Категории"
+        url = "/categories"
+        weight = 2
+      [[languages.ru.menu.main]]
+        name = "Серия статей"
+        url = '/series'
+        weight = 3
+      [[languages.ru.menu.main]]
+        name = "Обо мне"
+        url = "/about"
+        weight = 4
 
 
 # Author has some of your information to be shown on the home page.
@@ -157,6 +162,10 @@ weight = 1
 name = "Categories"
 url = "/categories"
 weight = 2
+[[menu.main]]
+name = "Series"
+url = "/series"
+weight = 3
 [[menu.main]]
 name = "About"
 url = "/about"
