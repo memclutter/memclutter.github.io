@@ -1,0 +1,121 @@
+baseURL: https://memclutter.me
+languageCode: en-us
+title: "memclutter's site"
+copyright: "© memclutter 2022"
+googleAnalytics:
+# paginate specifies the maximum number of posts displayed on the home page.
+paginate: 12
+# theme specifies the name of the theme to be used.
+theme: minima
+# defaultContentLanguage specifies the default language to use.
+defaultContentLanguage: en
+# language.x setup
+languages:
+  en:
+    languageName: 🇬🇧
+    contentDir: "content/en"
+    title: "memclutter's site"
+    weight: 1
+  ru:
+    languageName: 🇷🇺
+    weight: 2
+    contentDir: "content/ru"
+    title: "Сайт memclutter'а"
+    author:
+      status: ""
+      description: Backend/DevOps/SRE с опытом более 8 лет
+# author specifies your name, a slogon and your brief self-introduction.
+author:
+  name: "memclutter"
+  status: "not war, write code, make things"
+  description: "Backend/DevOps/SRE engineer with +8 years experience"
+
+params:
+  # greet specifies greeting words.
+  greet: "I am"
+  # subtitle speficies a subtitle displayed right after the site title.
+  subtitle:
+  # switch specifies two emojis to be used as the button toggling color themes.
+  switch: ["🌚", "🌝"]
+  # defaultTheme specifies a default theme to be used.
+  # currently available options: light, dark, system.
+  defaultTheme: dark
+  # displayDate speficies whether or not to display post date on the home page.
+  displayDate: true
+  # displayDescription specifies whether or not to display post description on
+  # the hoem page.
+  displayDescription: true
+  # selectable specifies if your post content can be selected.
+  selectable: true
+  # social is an array containing as many as social accounts to be displayed
+  # in the buttom of every page.
+  social:
+    - name: "telegram"
+      url: "https://t.me/memclutter"
+    - name: "linkedin"
+      url: "https://linkedin.com/in/memclutter"
+    - name: "facebook"
+      url: "https://facebook.com/memclutter"
+    - name: "twitter"
+      url: "https://twitter.com/memclutter"
+    - name: "email"
+      url: "mailto:memclutter@gmail.com"
+    - name: "github"
+      url: "https://github.com/memclutter"
+    - name: "rss"
+      url: "/index.xml"
+
+  # math plugin
+  math:
+    enable: false
+    provider: katex
+
+  # diagram plugin
+  diagram:
+    enable: false
+    provider: mermaid
+
+  # comment plugin
+  comment:
+    enable: true
+    provider: utterances
+    # check out https://disqus.com/
+    disqus:
+      shortname: hugo-minima
+      # check out https://utteranc.es
+    utterances:
+      repo: memclutter/memclutter.github.io
+      issueTerm: pathname
+      label: comment
+    # check out https://giscus.app
+    giscus:
+      repo: mivinci/hugo-theme-minima
+      repoId: MDEwOlJlcG9zaXRvcnkzODcxMjM2NDU=
+      category: Comments
+      categoryId: DIC_kwDOFxMJvc4CScQm
+      mapping: pathname
+      inputPosition: buttom # bottom | top
+      reactions: true
+      metadata: false
+
+
+# menu.main is an array containing what is used as the navigator.
+menu:
+  main:
+    - identifier: tags
+      weight: 2
+    - identifier: series
+      weight: 3
+
+# taxonomies defines ways to classify yout posts. Below are some presets that
+# most bloggers use, so you can replace them with whatever you like.
+taxonomies:
+  tag: tags
+  series: series
+
+# markup.highlight has two keys set to make sure that the syntax highlighting
+# in your posts are rendered correctly, so do not edit them.
+markup:
+  highlight:
+    lineNos: true
+    noClasses: false
